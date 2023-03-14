@@ -1,4 +1,4 @@
-package com.example.pizzahut;
+package com.example.pizzahut.Fragments;
 
 import android.os.Bundle;
 
@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.pizzahut.Modals.PizzaModal;
 import com.example.pizzahut.databinding.FragmentAddpizzaBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

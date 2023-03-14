@@ -10,12 +10,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.pizzahut.ConfirmOderActivity;
-import com.example.pizzahut.PizzaModal;
-import com.example.pizzahut.PizzaitemModal;
+import com.example.pizzahut.Activitys.ConfirmOderActivity;
+import com.example.pizzahut.Modals.PizzaModal;
 import com.example.pizzahut.R;
 import com.squareup.picasso.Picasso;
 

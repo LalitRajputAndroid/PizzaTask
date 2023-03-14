@@ -1,4 +1,4 @@
-package com.example.pizzahut;
+package com.example.pizzahut.Modals;
 
 public class UserModal {
     private String Name,Email,Password,U_id;

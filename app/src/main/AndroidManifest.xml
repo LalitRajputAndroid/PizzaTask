@@ -16,16 +16,16 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".ConfirmOderActivity"
+            android:name=".Activitys.ConfirmOderActivity"
             android:exported="false" />
         <activity
-            android:name=".UserHomeActivity3"
+            android:name=".Activitys.UserHomeActivity3"
             android:exported="false" />
         <activity
-            android:name=".AdminHomeActivity2"
+            android:name=".Activitys.AdminHomeActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activitys.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

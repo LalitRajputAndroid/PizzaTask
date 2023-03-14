@@ -1,4 +1,4 @@
-package com.example.pizzahut;
+package com.example.pizzahut.Modals;
 
 public class PizzaitemModal {
     private  String PizzaName,PizzaQunty,PizzaDiscount,DiscountPrice,DateofBuy,GrandTotal,CustomerEmail,OrderId,PizzaImage;

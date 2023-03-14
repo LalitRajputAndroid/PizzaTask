@@ -1,4 +1,4 @@
-package com.example.pizzahut;
+package com.example.pizzahut.Modals;
 
 public class PizzaModal {
     private String pizzaname,pizzaprice,image,pizzaid;

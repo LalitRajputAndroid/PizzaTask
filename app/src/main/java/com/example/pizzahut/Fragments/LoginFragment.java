@@ -1,4 +1,4 @@
-package com.example.pizzahut;
+package com.example.pizzahut.Fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,6 +15,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.pizzahut.Activitys.UserHomeActivity3;
+import com.example.pizzahut.R;
 import com.example.pizzahut.databinding.FragmentLoginBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -84,7 +86,7 @@ public class LoginFragment extends Fragment {
 
         if (check){
 
-            Intent intent = new Intent(getContext(),UserHomeActivity3.class);
+            Intent intent = new Intent(getContext(), UserHomeActivity3.class);
             startActivity(intent);
         }
 
@@ -142,7 +144,7 @@ public class LoginFragment extends Fragment {
             public void onClick(View view) {
                 FragmentManager manager = getFragmentManager();
                 FragmentTransaction transaction = manager.beginTransaction();
-                transaction.replace(R.id.Auth_frmelayout_id,new LoginFragment()).commit();
+                transaction.replace(R.id.Auth_frmelayout_id,new AdminLoginFragment()).commit();
             }
         });
 

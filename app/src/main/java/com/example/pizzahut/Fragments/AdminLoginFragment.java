@@ -1,4 +1,4 @@
-package com.example.pizzahut;
+package com.example.pizzahut.Fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.pizzahut.Activitys.AdminHomeActivity2;
 import com.example.pizzahut.databinding.FragmentAdminLoginBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -90,7 +91,7 @@ public class AdminLoginFragment extends Fragment {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()){
                                 Toast.makeText(getContext(), "Admin Login Success", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(getContext(),AdminHomeActivity2.class));
+                                startActivity(new Intent(getContext(), AdminHomeActivity2.class));
                                 binding.adminEmailIdId.getEditText().setText("");
                                 binding.adminpasswordId.getEditText().setText("");
                             }

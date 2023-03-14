@@ -1,9 +1,11 @@
-package com.example.pizzahut;
+package com.example.pizzahut.Activitys;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.pizzahut.Fragments.LoginFragment;
+import com.example.pizzahut.R;
 import com.example.pizzahut.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {

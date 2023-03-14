@@ -1,21 +1,18 @@
-package com.example.pizzahut;
+package com.example.pizzahut.Activitys;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.transition.FragmentTransitionSupport;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
 import com.example.pizzahut.Adapters.PizzaitemAdapter;
+import com.example.pizzahut.Modals.PizzaModal;
 import com.example.pizzahut.databinding.ActivityUserHome3Binding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -23,8 +20,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
-import java.util.ArrayList;
 
 public class UserHomeActivity3 extends AppCompatActivity {
 
@@ -80,7 +75,7 @@ public class UserHomeActivity3 extends AppCompatActivity {
                 SharedPreferences.Editor editor=preferences.edit();
                 editor.putBoolean("login",false);
                 editor.apply();
-                startActivity(new Intent(UserHomeActivity3.this,MainActivity.class));
+                startActivity(new Intent(UserHomeActivity3.this, MainActivity.class));
                 finish();
             }
         });

@@ -1,15 +1,16 @@
-package com.example.pizzahut;
+package com.example.pizzahut.Activitys;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Switch;
 import android.widget.Toast;
 
+import com.example.pizzahut.Fragments.AddpizzaFragment;
+import com.example.pizzahut.R;
+import com.example.pizzahut.Fragments.SalecheckAFragment;
 import com.example.pizzahut.databinding.ActivityAdminHome2Binding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 

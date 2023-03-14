@@ -1,4 +1,4 @@
-package com.example.pizzahut;
+package com.example.pizzahut.Activitys;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.pizzahut.Modals.PizzaitemModal;
 import com.example.pizzahut.databinding.ActivityConfirmOderBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -19,7 +20,6 @@ import com.squareup.picasso.Picasso;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.logging.SimpleFormatter;
 
 public class ConfirmOderActivity extends AppCompatActivity {
 
@@ -97,7 +97,7 @@ public class ConfirmOderActivity extends AppCompatActivity {
 
                                     Toast.makeText(ConfirmOderActivity.this, "Order Success", Toast.LENGTH_SHORT).show();
                                     reference.child("AdminRoom").child(date).child(ordarID).setValue(modal);
-                                    startActivity(new Intent(ConfirmOderActivity.this,UserHomeActivity3.class));
+                                    startActivity(new Intent(ConfirmOderActivity.this, UserHomeActivity3.class));
                                 }
 
                             }
