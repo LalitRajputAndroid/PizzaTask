@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290506259505",
+    "project_id": "pizza-hut-e022f",
+    "storage_bucket": "pizza-hut-e022f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290506259505:android:7c17e513018dde3f9e2910",
+        "android_client_info": {
+          "package_name": "com.example.pizzahut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290506259505-i8ks2ll5rauaefk8c8h1cpah727ecv5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBbSw8GD8flDbVwXt4YPtWi-1nxkSb6jI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290506259505-i8ks2ll5rauaefk8c8h1cpah727ecv5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

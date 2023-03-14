@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SalecheckAFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/calendericon_ID"
+            android:src="@drawable/datediloge"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_toRightOf="@+id/calendericon_ID"
+            android:text="date"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/setdatetextview_id"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/searchbtn_id"
+            android:layout_toRightOf="@+id/setdatetextview_id"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/salerecyclerview_id"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calendericon_ID"/>
+    </RelativeLayout>
+
+</FrameLayout>

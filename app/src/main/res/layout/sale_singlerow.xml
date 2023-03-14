@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="10dp"
+        >
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+
+           >
+
+           <TextView
+               android:id="@+id/useremail_id"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="user email"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:textSize="18sp"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/discoun_itemID"
+               android:text="Discount Item"
+               android:layout_marginVertical="5dp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/p_nameID"
+               android:text="Pizza Name"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               />
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/date_ID"
+                android:text="Date"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_alignParentEnd="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/p_quntyID"
+                android:layout_marginVertical="5dp"
+                android:text="Qunty"
+                android:layout_below="@id/useremail_id"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/dis_PriceID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discount Price"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/total_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

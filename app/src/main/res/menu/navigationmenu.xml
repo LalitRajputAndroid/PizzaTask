@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/add_pizza_id"
+        android:title="Add Pizza"
+        android:icon="@drawable/add"
+        />
+    <item android:id="@+id/salepizza_id"
+        android:title="Sale Pizza"
+        android:icon="@drawable/salecheck"
+        />
+</menu>
